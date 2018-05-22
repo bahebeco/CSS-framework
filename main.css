@@ -8,6 +8,17 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+@media only screen and (max-width:500px){
+    p{
+        display: none;
+    }
+}
+/* @media only screen and (max-width:500px) and (orientation: landscape){
+    p{
+        display: none;
+    }
+} */
+
 .row {
     width: 100%;
     display: flex;
